@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Leakage Prevention (DLP) | SaNs Portfolio</title>
+    <link>http://localhost:50549/tag/data-leakage-prevention-dlp/</link>
+      <atom:link href="http://localhost:50549/tag/data-leakage-prevention-dlp/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data Leakage Prevention (DLP)</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 30 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:50549/media/icon_hu14484311124804984102.png</url>
+      <title>Data Leakage Prevention (DLP)</title>
+      <link>http://localhost:50549/tag/data-leakage-prevention-dlp/</link>
+    </image>
+    
+    <item>
+      <title>Data leakage detection for health information system based on memory introspection</title>
+      <link>http://localhost:50549/publications/conference-paper/data-leak/</link>
+      <pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:50549/publications/conference-paper/data-leak/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

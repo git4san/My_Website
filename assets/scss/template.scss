@@ -1,0 +1,212 @@
+// Starter Blog Template
+// https://hugoblox.com/hugo-themes/
+
+@import url('https://cdn.jsdelivr.net/npm/academicons/css/academicons.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+  background-color: rgb(247, 250, 252);
+}
+
+.article-container {
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.dark .article-container {
+  background-color: rgb(31, 39, 51);
+}
+
+// custom footer color
+.page-footer {
+  background-color: rgb(247, 250, 252);
+}
+
+.dark .page-footer {
+  background-color: rgb(26, 32, 44);
+}
+
+// more rounded cards and larger gap between cards
+.card-simple {
+  margin-top: 1.8rem;
+  border-radius: 15px;
+}
+
+.dark .card-simple {
+  background: rgb(31, 39, 51);
+}
+
+// no navbar shadow
+.navbar {
+  box-shadow: none !important; // 'important' to override dark mode box-shadow too.
+}
+
+// custom section padding
+.home-section {
+  padding: 1rem 0;
+}
+
+.home-section.wg-about-avatar {
+  padding: 0;
+}
+
+#profile .network-icon {
+  margin-top: 0.5rem;
+}
+
+ul.network-icon .big-icon {
+  font-size: 1.5rem;
+}
+
+.dark .portrait-title h3 {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+}
+
+.dark .portrait-title h2 {
+  color: #fff;
+  font-weight: bold;
+}
+
+.home-section > .content {
+  width: 45em;
+  max-width: calc(100% - 4em);
+  margin: 0 auto;
+}
+
+.home-section > .content > :last-child {
+  margin-bottom: 0;
+}
+
+.home-section header {
+  margin-bottom: 1em;
+}
+
+// Narrower container for Hello World sections (primarily Blank widget content).
+@media (min-width: 1200px) {
+  .home-section .container {
+    max-width: 880px;
+  }
+}
+@media (min-width: 992px) {
+  .home-section .container {
+    max-width: 880px;
+  }
+}
+
+// Custom avatar size on homepage
+.avatar {
+  width: auto;
+  height: auto;
+  max-width: 225px;
+  max-height: 225px;
+}
+
+// Prevent stretching on About page with narrow container
+.wg-about .avatar {
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+// Smaller Name and Role text on About page than in homepage `about.avatar` widget
+.wg-about .portrait-title h2 {
+  font-size: 1rem;
+}
+
+.wg-about .portrait-title h3 {
+  font-size: 0.8rem;
+}
+
+.justified-text {
+  font-family: 'Roboto', sans-serif; // Use the imported font
+  font-size: 18px;
+  text-align: justify;
+}
+
+.interests {
+  font-family: 'Roboto', sans-serif;  // Choose your preferred font
+  font-size: 18px;  // Adjust size as needed
+  color: #d48c8c;  // Default color for light mode
+  font-style: italic;  // Make the entire text italic
+}
+
+.justified-text-color a {
+  color: #357ABD; /* Default color */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.justified-text-color a:hover {
+  color: #e63946; /* Hover color */
+}
+
+/* Style for the QS World University Ranking Box */
+.qs-ranking-box {
+  position: fixed; /* Fixes the box on the side */
+  top: 20%; /* Adjust the distance from the top */
+  right: 10px; /* Position it on the right side */
+  width: 250px; /* Width of the box */
+  padding: 20px; /* Padding inside the box */
+  background-color: #00bbff; /* Background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  z-index: 9999; /* Make sure it's above other content */
+}
+
+.qs-ranking-box h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.qs-ranking-box p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.qs-ranking-box a {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  color: #FFFF00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.qs-ranking-box a:hover {
+  text-decoration: underline;
+}
+
+.monash-logo {
+  width: 100px; /* Adjust width as needed */
+  height: auto;
+  margin-bottom: 10px; /* Space between logo and text */
+}
+
+.custom-masonry .project-item {
+  width: calc(33.33% - 20px); /* Ensures 3 items per row with spacing */
+  margin-bottom: 20px;
+}
+
+.custom-masonry {
+  display: flex;
+  flex-wrap: wrap; /* Forces wrap after each row */
+  gap: 20px; /* Adds space between items */
+}
+
+.citation {
+  font-family: Georgia, 'Times New Roman', Times, serif; /* Classic serif look */
+  font-size: 16px; /* Slightly larger for readability */
+  color: #219CF0; /* Dark gray for a softer look than pure black */
+  line-height: 1.5; /* Good line spacing for readability */
+  margin: 1em 0; /* Space around the citation block */
+}
+
+
+
+
+
+

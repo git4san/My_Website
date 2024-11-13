@@ -1,0 +1,21 @@
+/* Publications page custom styles */
+.publication-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+.publication-details {
+    font-size: 1em;
+    color: #666;
+}
+
+.publication-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Adjust column count as needed */
+    gap: 20px;
+}
+
+/* Additional custom styles */
+

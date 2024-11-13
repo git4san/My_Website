@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zero-Day Vulnerabilities | SaNs Portfolio</title>
+    <link>http://localhost:50549/tag/zero-day-vulnerabilities/</link>
+      <atom:link href="http://localhost:50549/tag/zero-day-vulnerabilities/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zero-Day Vulnerabilities</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:50549/media/icon_hu14484311124804984102.png</url>
+      <title>Zero-Day Vulnerabilities</title>
+      <link>http://localhost:50549/tag/zero-day-vulnerabilities/</link>
+    </image>
+    
+    <item>
+      <title>Pervasive Micro Information Flow Tracking</title>
+      <link>http://localhost:50549/publications/journal-article/permit-method/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:50549/publications/journal-article/permit-method/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enriching the Semantics of Information Flow Tracking with Source-Level Memory Allocation Event Logging</title>
+      <link>http://localhost:50549/publications/conference-paper/squirrel/</link>
+      <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:50549/publications/conference-paper/squirrel/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

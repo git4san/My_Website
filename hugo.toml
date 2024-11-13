@@ -1,0 +1,16 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+# Outputs settings
+[outputs]
+home = ["HTML", "CSS", "RSS", "JSON", "WebAppManifest"]
+section = ["HTML", "RSS"]
+
+# Enable SCSS to CSS processing in the Hugo assets pipeline
+[imaging]
+  quality = 75
+
+# Custom site parameters
+[params]
+  reading_time = true

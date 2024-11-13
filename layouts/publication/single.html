@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article>
+  <h1>{{ .Title }}</h1>
+  
+  <!-- Displaying Publication Details -->
+  <p><strong>Authors:</strong> {{ .Params.authors | join ", " }}</p>
+  <p><strong>Published in:</strong> {{ .Params.publication }}</p>
+  <p><strong>Publication Type:</strong> {{ .Params.publication_types | join ", " }}</p>
+  <p><strong>Publish Date:</strong> {{ .Params.publishDate | dateFormat "Jan 2, 2006" }}</p>
+  
+  <!-- Displaying abstract -->
+  <p>{{ .Params.abstract }}</p>
+  
+  <!-- Links -->
+  <div>
+    {{ with .Params.url_pdf }}<a href="{{ . }}" target="_blank">PDF</a>{{ end }}
+    {{ with .Params.url_code }}<a href="{{ . }}" target="_blank">Code</a>{{ end }}
+    {{ with .Params.url_project }}<a href="{{ . }}" target="_blank">Project</a>{{ end }}
+  </div>
+</article>
+{{ end }}
